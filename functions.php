@@ -7,11 +7,6 @@ function import_bootstrap() {
 }
 add_action('wp_enqueue_scripts', 'import_bootstrap');
 
-function import_parallax() {
-  wp_enqueue_script('parallax-js', get_template_directory_uri(). "/js/parallax.min.js", array('jquery'));
-}
-add_action('wp_enqueue_scripts', 'import_parallax');
-
 function import_bubble() {
   wp_enqueue_script('bubble-js', get_template_directory_uri(). "/js/bubble.js", array('jquery'));
 }

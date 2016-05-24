@@ -13,6 +13,7 @@
 /* --------------------
 General
 -------------------- */
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
@@ -245,13 +246,14 @@ Header
 }
 
 .headline-container-text {
+  /*margin: 0 auto;
   position: absolute;
-  left: 50%;
+  left: 50%;*/
 }
 
 .headline-text {
   position: relative;
-  left: -50%;
+  /*left: -50%;*/
   top: 100px;
   color: #fefefe;
   text-transform: uppercase;

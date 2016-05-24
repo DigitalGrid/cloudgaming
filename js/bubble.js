@@ -48,8 +48,8 @@
     * Circle
     */
     function Circle() {
-        this.pos = {};
-        this.setup();
+      this.pos = {};
+      this.setup();
     }
     
     /*
@@ -71,7 +71,7 @@
         this.setup();
       }
       this.pos.y -= this.velocity;
-      this.alpha -= 0.0005;
+      this.alpha -= 0.0003;
       ctx.beginPath();
       ctx.arc(this.pos.x, this.pos.y, this.scale*10, 0, 2 * Math.PI, false);
       ctx.fillStyle = 'rgba(255,255,255,'+this.alpha+')';
